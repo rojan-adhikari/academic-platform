@@ -1,0 +1,10 @@
+# Local data: the database and files people upload stay on the machine that runs nerd.
+data/*.db
+data/*.db-*
+data/uploads/
+node_modules
+.env
+.env.*
+.cloudflared/
+*.log
+.DS_Store

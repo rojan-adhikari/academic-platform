@@ -1,0 +1,13 @@
+{
+  "name": "academic-intelligence-platform",
+  "version": "1.0.0",
+  "description": "Multi-university intelligent academic monitoring and support platform (hackathon build, demo data only)",
+  "private": true,
+  "type": "commonjs",
+  "engines": { "node": ">=22.5.0" },
+  "scripts": {
+    "start": "node --experimental-sqlite --no-warnings server/index.js",
+    "seed": "node --experimental-sqlite --no-warnings server/seed.js",
+    "test": "node --experimental-sqlite --no-warnings server/selftest.js"
+  }
+}
